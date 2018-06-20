@@ -1,6 +1,6 @@
 {
   "name": "shownodemodulelist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/node-modules.min.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "dev": "webpack-dev-server --content-base ./dev --env=webpack.dev --open --hot",
     "dist": "webpack --env=webpack.dist"
   },
+  "files": [
+  "dist",
+  "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/withleedh/ShowNodeModuleList.git"
