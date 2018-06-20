@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+## ShowNodeModuleList
 
-<head>
-  <meta charset="utf-8">
-  <title>Node Modules</title>
-</head>
-<body>
-  <div id="app">
-    <node-modules></node-modules>
-  </div>
+This is a project to learn how to publish my own vue component and it will show node module list eventually.
 
-  <script src="https://unpkg.com/vue@2.3.3/dist/vue.js"></script>
-  <script src="./dist/node-modules.min.js"></script>
-  <script type="text/javascript">
-  new Vue({
-    el: "#app",
-    components: {
-      'node-modules': NodeModules.default
-    }
-  });
-  </script>
 
-</body>
 
-</html>
+You can find the full tutorial on building the Vue-version component on the Blog @ https://vuetiful.wordpress.com/2017/05/13/publishing-components-in-vue-js/
